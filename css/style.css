@@ -1,0 +1,863 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html{
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }  
+
+
+.header{
+  background: url(../img/Hero.jpg) no-repeat center;
+ 
+  width: 100%;
+  height: 962px;
+}
+
+.logo > a > img{
+  width: 170px;
+}
+
+
+
+.wrapper{
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 55px;
+
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.nav > li > a{
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  margin-left: 80px;
+  opacity: 90%;
+  transition-duration: 0.3s;
+}
+
+.nav > li > a:hover{
+  opacity: 100%;
+}
+
+.conteiner{
+  width: 1060px;
+  padding-left: 10px;
+  margin: 0 auto;
+  padding-top: 171px;
+  padding-bottom: 60px;
+}
+
+h1{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+}
+
+p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.disco{
+  width: 619px;
+  height: 121px;
+}
+
+.text{
+  Width: 546px;
+  Height: 72px;
+  margin-top: 22px;
+}
+
+
+.form{
+  padding-top: 60px;
+}
+
+
+.poiskovik{
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  
+
+}
+.input{
+  width: 300px;
+  border: 0;
+  border-bottom: 2px solid #BFC0C5;
+  background: transparent;
+  background: url(../img/svg/Oval.svg) no-repeat left top;
+  margin-right: 60px;
+  padding-bottom: 22px;
+  padding-left: 43px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white
+}
+
+.input::placeholder{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white
+}
+
+.knopka{
+  height: 58px;
+  width: 171px;
+  background: #1B7DFF;
+  border: 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  transition-duration: 0.3s;
+
+}
+
+
+.knopka:hover{
+  background: #114891;
+  font-size: 25px;
+
+}
+
+.kart{
+  height: 420px;
+  width: 1262px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  position: relative;
+}
+
+h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.zagolovok_kart{
+  width: 100%;
+  padding: 95px 100px 90px 100px;
+  position: absolute;
+  transform: translateY(-100%);
+  background: white;
+}
+
+.flexs__kartochka{
+  display: flex;
+  box-sizing: content-box;
+  flex-wrap: wrap;
+}
+
+
+.kartochka{
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-sizing: content-box;
+  transition-duration: 0.2s;
+  
+}
+
+
+/*
+.kartochka:hover{
+  box-shadow: 7px 11px 20px 7px rgb(11 56 235 / 52%);
+}
+*/
+
+
+.kartochka > img{
+  padding-bottom: 40px;
+}
+
+h3{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.kartochka__text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding-bottom: 40px;
+}
+
+.kartochka > a{
+  padding-right: 59px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  background: url(../img/svg/Shape.svg) no-repeat 95% center;
+  transition-duration: 0.3s;
+  }
+
+  .kartochka > a:hover{
+    background: url(../img/svg/Shape.svg) no-repeat right center;
+  }
+
+.sity__wrapper{
+  width: 1264px;
+  height: 735px;
+  margin: 0 auto;
+}
+
+.sity__zagolowok{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sity__zagolowok > a{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 59px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  background: url(../img/svg/Shape.svg) no-repeat 95% center;
+  transition-duration: 0.3s;
+}
+
+.sity__zagolowok > a:hover{
+  background: url(../img/svg/Shape.svg) no-repeat right center;
+}
+
+h4{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  
+}
+
+
+.fotky{
+  width: 619px;
+  height: 354px;
+  background: url(../img/Mount\ Fuji.jpg) no-repeat center;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-bottom: 27px;
+
+}
+
+.fotky2{
+  width: 635px;
+  height: 354px;
+  background: url(../img/Kyoto.jpg) no-repeat center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-bottom: 27px;
+}
+
+.fotky3{
+  width: 415px;
+  height: 283px;
+  background: url(../img/Tokyo.jpg) no-repeat center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.fotky4{
+  width: 415px;
+  height: 283px;
+  background: url(../img/Niigata.jpg) no-repeat center;
+  
+}
+
+.fotky5{
+  width: 415px;
+  height: 283px;
+  background: url(../img/Sapporo.jpg) no-repeat center;
+  
+}
+
+
+.sity_foto{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.razdel{
+  padding-bottom: 130px;
+}
+
+.razdel2{
+  padding-bottom: 157px;
+}
+
+.prefecture__wrapper{
+  width: 1271px;
+  height: 785px;
+  margin: 0 auto;
+}
+
+.dom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.cartinka__dom{
+  width: 597px;
+  height: 354px;
+  background: url(../img/dom.jpg) no-repeat center;
+  background-size: contain;
+  
+}
+
+.opisanie__dom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 597px;
+  height: 354px;
+
+}
+
+.tottori{
+  padding-top: 15px;
+}
+
+
+.opisanie__dom > p{
+  color: #102746;
+}
+
+.opisanie__dom > a{
+  width: 210px;
+  padding-right: 59px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  background: url(../img/svg/Shape.svg) no-repeat 95% center;
+  transition-duration: 0.3s;
+}
+
+.opisanie__dom > a:hover{
+  background: url(../img/svg/Shape.svg) no-repeat right center;
+}
+
+
+.coridor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cartinka__coridor{
+  width: 597px;
+  height: 354px;
+  background: url(../img/coridor.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.razdel3{
+  padding-bottom: 150px;
+}
+
+.places_to_visit_wrapper{
+  width: 1271px;
+  margin: 0 auto;
+}
+
+.zagolovok__places{
+  padding-bottom: 50px;
+
+}
+
+.places_kartochki{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  
+}
+
+.kartochka_1_1{
+  width: 386px;
+}
+
+.kartochka_1_1 > div > p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding-top: 45px;
+  padding-bottom: 31px;
+}
+
+.kartochka_1_1 > button{
+  height: 42px;
+  width: 118px;
+  background: #1B7DFF;
+  border: 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  transition-duration: 0.3s;
+  margin-bottom: 40px;
+}
+
+
+
+.kartochka_1{
+  background: url(../img/1.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.kartochka_2{
+  background: url(../img/2.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kartochka_3{
+  background: url(../img/3.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.kartochka_4{
+  background: url(../img/4.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.kartochka_5{
+  background: url(../img/5.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.kartochka_6{
+  background: url(../img/6.jpg);
+  background-size: contain;
+  width: 386px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.overley{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 27px
+}
+
+.coments_likes{
+  display: flex;
+}
+
+.likes{
+  background: url(../img/svg/like.svg)no-repeat right center;
+  padding-right: 20px;
+}
+
+.comments{
+  background: url(../img/svg/comment.svg)no-repeat right center;
+  padding-left: 14px;
+  padding-right: 32px;
+
+}
+
+.razdel4{
+  padding-bottom: 100px;
+}
+
+
+.video{
+  background: #0E1D28;
+}
+
+.footer{
+  height: 370px;
+  width: 100%;
+  background:  #0E1D28;
+  position: relative;
+}
+
+
+.footer__wrapper{
+  height: 200px;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.footer__logo{
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.footer__logo > img{
+  margin-bottom: auto;
+}
+
+.link__conteiner{
+  height: 133px;
+  width: 550px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.nav__footer > li > a{
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+
+@media screen and (max-width: 1080px)  {
+  .wrapper {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .conteiner{
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 907px) {
+  .conteiner{
+    width: auto;
+  }
+
+  .input{
+    margin-right: 30px;
+  }
+
+
+}
+
+@media screen and (max-width: 844px) {
+ .input{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .conteiner{
+  padding-top: 100px;
+ }
+
+
+}
+
+@media screen and (max-width: 755px) {
+  .nav > li > a{
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .nav > li > a{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .disco{
+    height: auto;
+    width: auto;
+  }
+
+  .disco > h1{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .text{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .disco{
+    width: auto;
+  }
+  .disco > h1{
+    line-height: 40px
+  }
+
+  .logo > a > img{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .logo > a > img{
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .kart{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .zagolovok_kart{
+    padding: 95px 100px 90px 30px
+  }
+}
+
+@media screen and (max-width: 1263px) {
+  .fotky, .fotky2, .fotky3, .fotky4, .fotky5{
+    width: 415px;
+    height: 283px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .sity__wrapper{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .sity__zagolowok{
+    flex-direction: column;
+  }
+
+  .sity__zagolowok > h2{
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+  .tottori > h2{
+    font-size: 25px;
+  }
+  .opisanie__dom{
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 1271px){
+  .prefecture__wrapper{
+    width: auto;
+    height: auto;
+  }
+
+  .cartinka__dom, .cartinka__coridor, .opisanie__dom{
+    margin: 0 auto;
+  }
+  .opisanie__dom{
+    height: 220px;
+  }
+  .dom{
+    margin-bottom: 0px;
+  }
+
+  .places_to_visit_wrapper{
+    width: auto;
+    height: auto;
+
+  }
+
+  .zagolovok__places{
+    display: flex;
+    justify-content: center;
+  }
+  .razdel2, .razdel3 {
+    padding-bottom: 0px; 
+}
+  .places_kartochki{
+    justify-content: space-around;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  .tottori > h2{
+    font-size: 25px;
+  }
+  .opisanie__dom{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .footer__wrapper{
+    width: auto;
+}
+.footer__logo > img{
+  width: 200px;
+  height: 55px;
+}
+
+.footer__logo{
+  flex-direction: column;
+}
+
+.link__conteiner{
+  width: auto;
+}
+
+}
+
+@media screen and (max-width: 400px){
+  .fotky, .fotky2, .fotky3, .fotky4, .fotky5{
+    height: 200px
+
+  }
+}
+
+
+
+
